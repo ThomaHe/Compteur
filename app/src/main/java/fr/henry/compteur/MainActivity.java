@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             float currentSpeed = location.getSpeed() * 3.6f;
             currentSpeedTxt.setText(String.format(getString(R.string.speed_value),df.format(currentSpeed)));
 
-            if (location.getSpeed()>0)
+            if (location.getSpeed()>0.1)
                 updateAverageSpeed(location.getSpeed());
             else if(averageSpeed!=0 && mesures>5)
                 navigateToRecapScreen();
