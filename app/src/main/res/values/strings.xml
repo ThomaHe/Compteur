@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Compteur</string>
+    <string name="no_permission">Sans autorisation de localisation, l\'application ne peut fonctionner et va se fermer</string>
+    <string name="waiting_connexion">En attente de connexion GPS</string>
+    <string name="instant_speed">Vitesse instantanée</string>
+    <string name="average_speed">Vitesse moyenne sur le dernier tronçon :</string>
+    <string name="close_btn">Terminé</string>
+    <string name="speed_value">%1$s km/h</string>
+    <string name="speed_none">-.- km/h</string>
+    <string name="ok">Ok</string>
+</resources>
